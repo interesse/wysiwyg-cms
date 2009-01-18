@@ -1,0 +1,422 @@
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-01-11 19:26:02) [GET]
+  Session ID: 76a4614c3bfbdbbdf172208bfe466412
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/boilerplate/screen.css" with {:method=>:get}):
+    /vendor/rails/actionpack/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
+    /vendor/rails/actionpack/lib/action_controller/routing/route_set.rb:384:in `recognize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/request_handler.rb:38:in `process_request'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_request_handler.rb:163:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:307:in `start_request_handler'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:276:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:165:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:274:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:165:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:273:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:135:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:112:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:112:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:177:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:218:in `spawn_rails_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:213:in `synchronize'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:213:in `spawn_rails_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:122:in `spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:247:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/bin/passenger-spawn-server:46
+
+Rendering /home/heman/src/cms/vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-01-11 19:26:10) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--10c671d90035090937931eb508663910f791c2c1
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/boilerplate/screen.css" with {:method=>:get}):
+    /vendor/rails/actionpack/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
+    /vendor/rails/actionpack/lib/action_controller/routing/route_set.rb:384:in `recognize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/request_handler.rb:38:in `process_request'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_request_handler.rb:163:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:307:in `start_request_handler'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:276:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:165:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:274:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:165:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:273:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:135:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:112:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:112:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:177:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:218:in `spawn_rails_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:213:in `synchronize'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:213:in `spawn_rails_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:122:in `spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:247:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/bin/passenger-spawn-server:46
+
+Rendering /home/heman/src/cms/vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-01-11 19:28:37) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--10c671d90035090937931eb508663910f791c2c1
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/stylesheets/boilerplate/lib/plugins.css" with {:method=>:get}):
+    /vendor/rails/actionpack/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
+    /vendor/rails/actionpack/lib/action_controller/routing/route_set.rb:384:in `recognize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/request_handler.rb:38:in `process_request'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_request_handler.rb:163:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:307:in `start_request_handler'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:276:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:165:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:274:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:165:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:273:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:135:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:112:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:112:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:177:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:218:in `spawn_rails_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:213:in `synchronize'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:213:in `spawn_rails_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:122:in `spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:247:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/bin/passenger-spawn-server:46
+
+Rendering /home/heman/src/cms/vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-01-11 19:32:25) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--10c671d90035090937931eb508663910f791c2c1
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/stylesheets/screen.css" with {:method=>:get}):
+    /vendor/rails/actionpack/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
+    /vendor/rails/actionpack/lib/action_controller/routing/route_set.rb:384:in `recognize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/request_handler.rb:38:in `process_request'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_request_handler.rb:163:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:307:in `start_request_handler'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:276:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:165:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:274:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:165:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:273:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:135:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:112:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:112:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:177:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:218:in `spawn_rails_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:213:in `synchronize'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:213:in `spawn_rails_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:122:in `spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:247:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/bin/passenger-spawn-server:46
+
+Rendering /home/heman/src/cms/vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-01-11 19:32:25) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--10c671d90035090937931eb508663910f791c2c1
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css" with {:method=>:get}):
+    /vendor/rails/actionpack/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
+    /vendor/rails/actionpack/lib/action_controller/routing/route_set.rb:384:in `recognize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/request_handler.rb:38:in `process_request'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_request_handler.rb:163:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:307:in `start_request_handler'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:276:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:165:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:274:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:165:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:273:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:135:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:112:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:112:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:177:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:218:in `spawn_rails_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:213:in `synchronize'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:213:in `spawn_rails_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:122:in `spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:247:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/bin/passenger-spawn-server:46
+
+Rendering /home/heman/src/cms/vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-01-11 19:32:53) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--10c671d90035090937931eb508663910f791c2c1
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css" with {:method=>:get}):
+    /vendor/rails/actionpack/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
+    /vendor/rails/actionpack/lib/action_controller/routing/route_set.rb:384:in `recognize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/request_handler.rb:38:in `process_request'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_request_handler.rb:163:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:307:in `start_request_handler'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:276:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:165:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:274:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:165:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:273:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:135:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:112:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:112:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:177:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:218:in `spawn_rails_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:213:in `synchronize'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:213:in `spawn_rails_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:122:in `spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:247:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/bin/passenger-spawn-server:46
+
+Rendering /home/heman/src/cms/vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-01-11 19:33:30) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--10c671d90035090937931eb508663910f791c2c1
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/form.html" with {:method=>:get}):
+    /vendor/rails/actionpack/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
+    /vendor/rails/actionpack/lib/action_controller/routing/route_set.rb:384:in `recognize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/request_handler.rb:38:in `process_request'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_request_handler.rb:163:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:307:in `start_request_handler'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:276:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:165:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:274:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:165:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:273:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:135:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:112:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:112:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:177:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:218:in `spawn_rails_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:213:in `synchronize'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:213:in `spawn_rails_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:122:in `spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:247:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/bin/passenger-spawn-server:46
+
+Rendering /home/heman/src/cms/vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-01-11 19:34:17) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--10c671d90035090937931eb508663910f791c2c1
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css" with {:method=>:get}):
+    /vendor/rails/actionpack/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
+    /vendor/rails/actionpack/lib/action_controller/routing/route_set.rb:384:in `recognize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/request_handler.rb:38:in `process_request'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_request_handler.rb:163:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:307:in `start_request_handler'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:276:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:165:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:274:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:165:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:273:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:135:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:112:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:112:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:177:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:218:in `spawn_rails_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:213:in `synchronize'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:213:in `spawn_rails_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:122:in `spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:247:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/bin/passenger-spawn-server:46
+
+Rendering /home/heman/src/cms/vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-01-11 19:34:17) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--10c671d90035090937931eb508663910f791c2c1
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/stylesheets/screen.css" with {:method=>:get}):
+    /vendor/rails/actionpack/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
+    /vendor/rails/actionpack/lib/action_controller/routing/route_set.rb:384:in `recognize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/request_handler.rb:38:in `process_request'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_request_handler.rb:163:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:307:in `start_request_handler'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:276:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:165:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:274:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:165:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:273:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:135:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:112:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:112:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:177:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:218:in `spawn_rails_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:213:in `synchronize'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:213:in `spawn_rails_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:122:in `spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:247:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.3/bin/passenger-spawn-server:46
+
+Rendering /home/heman/src/cms/vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.erb (not_found)
